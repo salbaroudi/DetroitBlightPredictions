@@ -9,3 +9,9 @@ The purpose of this project is to try out some other features, and scoring with 
 
 In the end, it was found that adding more features did not improve the model much. This was coroborated by other students in the class (on the course discussion board). The maximum score seen was
 an AUC of 0.82.
+
+## Order of Notebooks:
+
+1 - FeatureCleaning&Investigation: Gives the codebook for the dataset, and looks at some features to try. Basic Random Forest attempted.
+
+2 - DetroitBlightPrediction_RandomForests: Runs a Cross Validated Grid search with chosen features, to see if there are any scoring improvements.
